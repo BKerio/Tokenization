@@ -49,14 +49,16 @@ export function ChatEditor(props: {
   onChange: (value: string) => void;
 }) {
   const [rows, setRows] = useState<ChatMessage[]>([
-    { role: "system", content: "You are a helpful assistant", name: "" },
+    { role: "system", content: "", name: "" },
     { role: "user", content: "", name: "" },
   ]);
 
   const changeRef = useRef(props.onChange);
   useEffect(() => void (changeRef.current = props.onChange), [props.onChange]);
   useEffect(() => {
-    changeRef.current(getChatGPTEncoding(rows, props.model));
+    // Keep the prompt empty until a message has some content.
+    const isEmpty = rows.every((row) => !row.content && !row.name);
+    changeRef.current(isEmpty ? "" : getChatGPTEncoding(rows, props.model));
   }, [props.model, rows]);
 
   const updateRow = (i: number, patch: Partial<ChatMessage>) =>
