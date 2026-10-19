@@ -7,4 +7,4 @@ export const SOCIAL_LINKS: { id: SocialId; label: string; href: string }[] = [
   { id: "linkedin", label: "LinkedIn", href: "https://www.linkedin.com/in/briankerio/" },
 ];
 
-export const REPO_URL = "https://github.com/BKerio/tiktokenizer";
+export const REPO_URL = "https://github.com/BKerio/tiktokenization";
