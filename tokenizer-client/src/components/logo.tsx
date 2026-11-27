@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 const IMG_PROPS = {
   alt: "Tiktokenizer — Token counter for LLMs",
   draggable: false,
-  width: 953,
-  height: 240,
+  width: 907,
+  height: 220,
   className: "h-full w-auto select-none",
 } as const;
 
