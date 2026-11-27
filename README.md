@@ -1,5 +1,7 @@
 # Tiktokenizer
 
+ToolKit
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./tokenizer-client/public/Lockup%20on%20navy%401x.png">
