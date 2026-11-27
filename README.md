@@ -1,7 +1,11 @@
 # Tiktokenizer
 
 <p align="center">
-  <img src="./docs/logo.png" alt="Tiktokenizer — Token counter for LLMs" width="420">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./tokenizer-client/public/Lockup%20on%20navy%401x.png">
+    <source media="(prefers-color-scheme: light)" srcset="./tokenizer-client/public/Primary%20lockup%401x.png">
+    <img src="./tokenizer-client/public/Primary%20lockup%401x.png" alt="Tiktokenizer — Token counter for LLMs" width="600">
+  </picture>
 </p>
 
 ## Overview
@@ -241,6 +245,10 @@ Based on [Tiktokenizer](https://github.com/dqbd/tiktokenizer) by [dqbd](https://
 **Brian Kerio**: [GitHub](https://github.com/BKerio) · [X](https://x.com/_briankerio) · [LinkedIn](https://www.linkedin.com/in/briankerio/)
 
 ---
+
+<p align="center">
+  <img src="./tokenizer-client/public/App%20icon%401x.png" alt="Tiktokenizer app icon" width="96">
+</p>
 
 ⭐️ If you find this repository helpful, please consider giving it a star!
 
