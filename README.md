@@ -1,6 +1,5 @@
 # Tiktokenizer
 
-ToolKit
 
 <p align="center">
   <picture>
